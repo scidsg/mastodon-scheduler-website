@@ -35,6 +35,8 @@
 @media (prefers-color-scheme: dark) {
   header {
     background-color: var(--color-dark-translucent) !important;
+    border: 1px solid rgba(255, 255, 255, .25) !important;
+    box-shadow: 3px 3px 0px 0 rgba(255, 255, 255, .25) !important;
   }
 
   nav a.selected {

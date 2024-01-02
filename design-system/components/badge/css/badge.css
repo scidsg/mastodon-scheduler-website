@@ -1,7 +1,9 @@
 @media (prefers-color-scheme: light) {
   .badge {
     border: var(--border-dark);
-    background-color: var(--color-shade-lm);
+    background-color: var(--color-light);
+    border: 1px solid rgba(99, 100, 255, .75) !important;
+    box-shadow: 2px 2px 0px 0 rgba(99, 100, 255, .33) !important;
   }
 }
 
@@ -9,13 +11,15 @@
   .badge {
     border: var(--border-light);
     background-color: var(--color-shade-dm);
+    border: 1px solid rgba(255, 255, 255, .25) !important;
+    box-shadow: 2px 2px 0px 0 rgba(255, 255, 255, .25) !important;
   }
 }
 
 .badge {
   padding: var(--spacing-xsmall) var(--spacing-small);
   font-size: var(--font-size-xsmall);
-  letter-spacing: var(--kern-open);
+  letter-spacing: var(--kern-medium);
   border-radius: var(--radius-round);
   width: fit-content;
   font-family: 'Sans Bold';
