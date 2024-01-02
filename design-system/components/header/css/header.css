@@ -71,7 +71,7 @@ header .wrapper {
 }
 
 header h1 {
-  width: fit-content;
+  width: max-content;
   font-size: var(--font-size-logo) !important;
   line-height: var(--line-height-heading);
 }
@@ -190,10 +190,9 @@ header.island .logo {
   top: 0 !important;
   align-self: center;
   padding: calc(var(--spacing-base) * .875) 0;
-  margin: 0 var(--spacing-small) 0 0;
+  margin: 0;
   scale: .85;
   transform-origin: left;
-  margin-left: var(--spacing-small);
 }
 
 header.island a:not(header .logo a) {
@@ -201,7 +200,8 @@ header.island a:not(header .logo a) {
 }
 
 header.island .wrapper {
-  padding: 0 var(--spacing-small);
+  padding: 0 calc(var(--spacing-base) * 1) 0 calc(var(--spacing-base) * 1.25);
+
 }
 
 header.island nav ul li a.wrapper {
