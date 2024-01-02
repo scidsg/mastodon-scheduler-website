@@ -200,7 +200,7 @@ header.island a:not(header .logo a) {
 }
 
 header.island .wrapper {
-  padding: 0 calc(var(--spacing-base) * 1) 0 calc(var(--spacing-base) * 1.25);
+  padding: 0 calc(var(--spacing-base) * .5) 0 calc(var(--spacing-base) * 1.25);
 
 }
 
