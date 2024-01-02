@@ -190,6 +190,8 @@ header.island .logo {
   padding: calc(var(--spacing-base) * .875) 0;
   margin: 0 var(--spacing-small) 0 0;
   scale: .85;
+  transform-origin: left;
+  margin-left: var(--spacing-small);
 }
 
 header.island a:not(header .logo a) {
