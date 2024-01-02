@@ -144,6 +144,7 @@ p.hint a {
     padding-top: 11rem;
     align-items: flex-start;
     height: calc(100vh - 11rem);
+    overflow: visible;
   }
 
   .intro img {
