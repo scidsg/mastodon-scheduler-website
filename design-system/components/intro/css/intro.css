@@ -2,6 +2,7 @@
   .intro {
     background-color: var(--color-light);
     background-color: rgba(99, 100, 255, .08);
+    background-image: url('../../../../design-system/images/lm-bg.png');
   }
 
   p.hint {
@@ -14,6 +15,7 @@
 @media (prefers-color-scheme: dark) {
   .intro {
     background-color: var(--color-shade-dm);
+    background-image: url('../../../../design-system/images/dm-bg.png');
   }
 
   p.hint {
@@ -26,6 +28,9 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  background-size: 100vw;
+  background-position: 66vw 10%;
+  background-repeat: no-repeat;
 }
 
 .intro img {
@@ -124,7 +129,8 @@ p.hint a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .intro h2 {
+  .intro {
+    background-position: 75vw 10%;
   }
 }
 
@@ -147,6 +153,8 @@ p.hint a {
     padding-top: 11rem;
     align-items: flex-start;
     height: calc(100vh - 11rem);
+    background-size: 200vh;
+    background-position: 50% 66vh;
   }
 
   .intro img {
