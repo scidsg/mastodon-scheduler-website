@@ -36,8 +36,8 @@
 .intro img {
   position: absolute;
   top: 50%;
-  right: 70%;
-  transform: translateY(-50%) translateX(140%);
+  right: calc(-1024px * .5);
+  transform: translateY(-50%);
   width: 1024px;
 }
 
@@ -126,16 +126,29 @@ p.hint a {
 @media only screen and (max-width: 1280px) {
   .intro h2 {
   }
+
+  .intro img {
+    right: calc(-1024px * .65);
+  }
 }
+
 
 @media only screen and (max-width: 1024px) {
   .intro {
     background-position: 75vw 10%;
   }
+
+  .intro img {
+    right: calc(-1024px * .7);
+  }
 }
 
 @media only screen and (max-width: 960px) {
   .intro h2 {
+  }
+
+  .intro img {
+    right: calc(-1024px * .75);
   }
 }
 
