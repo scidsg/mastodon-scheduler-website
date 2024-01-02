@@ -1,0 +1,77 @@
+/* The Simple Design System is made with ❤️ by Glenn Sorrentino - https://glennsorrentino.com */
+/* Please consider contributing! */
+
+/* Add your custom styles in this file... */
+
+@media (prefers-color-scheme: light) {
+
+	.icon.lock {
+		background-image: url(../design-system/images/lm-sec.png);
+	}
+
+	.icon.api {
+		background-image: url(../design-system/images/lm-eng.png);
+	}
+
+	.icon.host {
+		background-image: url(../design-system/images/lm-project.png);
+	}
+
+	.icon.gift {
+		background-image: url(../design-system/images/lm-donor.png);
+	}
+
+	img.avatar {
+		border: 1px solid rgba(99, 100, 255, .75) !important;
+    	box-shadow: 3px 3px 0px 0 rgba(99, 100, 255, .33) !important;
+	}
+
+	#section1 {
+		background-color: rgba(255,255,255,.8);
+	}
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+	.icon.lock {
+		background-image: url(../design-system/images/dm-sec.png);
+	}
+
+	.icon.api {
+		background-image: url(../design-system/images/dm-eng.png);
+	}
+
+	.icon.host {
+		background-image: url(../design-system/images/dm-project.png);
+	}
+
+	.icon.gift {
+		background-image: url(../design-system/images/dm-donor.png);
+	}
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
