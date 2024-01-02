@@ -37,11 +37,12 @@
 .intro h2 {
   width: 55%;
   line-height: var(--line-height-heading);
-  margin-top: 0 !important;
+  margin-top: 1rem !important;
 }
 
 .intro h2 + p {
   width: 60%;
+  margin-bottom: 2rem !important;
 }
 
 .intro .btn {
